@@ -4,7 +4,7 @@
 
 <h1>Odd Brawlhalla</h1>
 
-<p><strong>Browse, recolor, and remix every Brawlhalla legend's skin art — right on your desktop.</strong></p>
+<p><strong>Browse, recolor, and bring your own art to every Brawlhalla legend — right on your desktop.</strong></p>
 
 <p>
   <a href="https://github.com/odd999/Odd-Brawlhalla/releases/latest">
@@ -24,7 +24,7 @@
   &nbsp;·&nbsp;
   <a href="#-how-it-works"><b>How it works</b></a>
   &nbsp;·&nbsp;
-  <a href="#-eac-safety"><b>EAC safety</b></a>
+  <a href="#-mod-responsibly"><b>Mod responsibly</b></a>
   &nbsp;·&nbsp;
   <a href="#-donate"><b>Donate</b></a>
 </p>
@@ -35,7 +35,7 @@
 
 ## What is Odd Brawlhalla?
 
-**Odd Brawlhalla** is a free Windows app that lets you explore the art behind every playable Brawlhalla legend, recolor any costume, swap individual shapes, and export the result as a modded `.swf` you can load into the game.
+**Odd Brawlhalla** is a free Windows app that lets you explore the art behind every playable Brawlhalla legend, recolor any costume, replace individual shapes with your own artwork, and export the result as a modded `.swf` you can load into the game.
 
 It reads your installed game directly — no separate dumps, no command-line tinkering — and gives you a clean, two-tier browser to dive from a legend straight into the editor.
 
@@ -84,7 +84,8 @@ Recommended captures:
 - **🗂 Every legend, every costume** — a curated catalog of **all 68 playable legends and 764 costumes**, including crossovers (Lara Croft, Master Chief, Rayman, Shovel Knight, Po, Hellboy, Finn & Jake, and more).
 - **🎨 Native SVG preview** — costumes render as crisp vector art that scales to any zoom level. No blurry pixel previews.
 - **🖌 Live recoloring** — flip between any of the 75 official color schemes, or build a custom palette and see it on the legend instantly.
-- **🧩 Shape replace** — swap individual SWF shapes with your own PNG or SVG artwork, with full round-trip support via the bundled JPEXS workflow.
+- **✏️ Bring your own art** — draw or paint a piece in any tool you like (Photoshop, Krita, Inkscape, Procreate, even MS Paint), import the PNG or SVG, and the app drops your artwork straight into the costume — with full vector round-trip and a clean modified `.swf` on export.
+- **🧩 Shape-level editing** — click any body part to select the exact underlying SWF shape; replace it with your own art, recolor it, or hide it — without touching the rest of the costume.
 - **🦴 Pose-aware compositing** — silhouette hit-testing lets you click directly on a body part to select the underlying bone and slot.
 - **♻ Default-skin-first ordering** — every legend's grid leads with the canonical costume, so you always know what "stock" looks like.
 - **🚀 One-click updates** — the app self-updates via [Velopack](https://github.com/velopack/velopack); just hit "Check for updates" or wait for the next launch.
@@ -117,17 +118,27 @@ Recommended captures:
 
 Under the hood, Odd Brawlhalla reads your `Game.swz` / `Init.swz` archives in-place (read-only) to discover characters, costumes, bones, and color schemes — then composes a live SVG preview from the game's own vector art. When you export, it writes a fresh `.swf` you can drop next to the original.
 
-The app **never modifies `Game.swz` or `Gfx_Hands.swf`** — those are off-limits to protect your EAC integrity and avoid cross-legend palette pollution.
+The app **never modifies `Game.swz` or `Gfx_Hands.swf`** — those are off-limits to protect your install and avoid cross-legend palette pollution.
 
 ---
 
-## ⚠ EAC safety
+## 💡 Mod responsibly
 
-> **Do not play ranked or online tournaments while you have modded SWFs loaded into Brawlhalla.**
+Blue Mammoth Games (the studio behind Brawlhalla) **allows cosmetic modding** as long as the mods don't give a competitive advantage and don't hurt the company's income. You can play with your modded skins — including online — without worrying about EAC bans.
 
-Brawlhalla uses Easy Anti-Cheat. EAC will flag modified game files and **can suspend your account**. Odd Brawlhalla itself is safe to run — it only *reads* the game — but the modded `.swf` files it produces are for **offline / custom-game / casual** use only.
+That permission comes with one rule the modding community takes very seriously:
 
-Rule of thumb: **uninstall your mods before going online.**
+> ### 🚫 Only mod **paid** skins. Never mod default (free) skins.
+
+The community calls modding free skins **"default modding"**, and treats it as piracy. Here's why it matters:
+
+- 💰 **Blue Mammoth funds Brawlhalla largely through paid-skin purchases.** Skins are how a small studio keeps the game free-to-play.
+- 🪙 **Modding a default skin to look like a paid one breaks that paywall.** It produces the "why buy when I can mod it for free?" mindset — the textbook definition of piracy.
+- ⚖ **If default-modding spreads, BMG may pull modding support altogether** and ruin it for everyone — including the legit modders who follow the rules.
+
+**What to do instead:** if you want a cooler look for your favorite legend, **buy a paid costume first**, then mod *that*. You support the devs, you get a cool skin, and you keep the modding scene alive.
+
+> Read the full rationale in the Brawlhalla Modding Community Discord's `#default-modding` channel. The "default skin lock" on the [roadmap](#-roadmap) will eventually enforce this rule at the tool level.
 
 ---
 
@@ -142,11 +153,8 @@ Rule of thumb: **uninstall your mods before going online.**
 
 ## 🗺 Roadmap
 
-- [ ] Authenticode code-signing (kill the SmartScreen warning)
-- [ ] Per-costume favorites + tagging
-- [ ] One-click "install to game" + restore-vanilla
-- [ ] Multi-shape weapon recolor presets
-- [ ] Community palette sharing
+- [ ] **Default-skin lock** — block modding of default (free) skins at the tool level, so users can't accidentally break Blue Mammoth's paywall. (See [Mod responsibly](#-mod-responsibly) for the *why*.)
+- [ ] **Authenticode code-signing** — kill the first-run SmartScreen warning.
 
 Got an idea? **[Open an issue](https://github.com/odd999/Odd-Brawlhalla/issues/new)** — feedback shapes what ships next.
 
