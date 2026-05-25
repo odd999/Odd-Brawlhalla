@@ -188,6 +188,8 @@ If Odd Brawlhalla saved you hours of JPEXS clicking, a coffee goes a long way:
 
 [MIT](LICENSE) — do whatever you want, just don't blame me if something breaks.
 
+Odd Brawlhalla bundles several open-source projects from the Brawlhalla modding community (all MIT-licensed). Their copyright notices and the projects they come from are listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
 <div align="center">
   <sub>Made with 🔥 by <a href="https://github.com/odd999">Odd</a>.</sub>
 </div>
