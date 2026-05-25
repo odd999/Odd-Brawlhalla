@@ -14,7 +14,7 @@
     <img alt="Downloads" src="https://img.shields.io/github/downloads/odd999/Odd-Brawlhalla/total?style=for-the-badge&color=00b4d8" />
   </a>
   <img alt="Platform" src="https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" />
+  <img alt="License" src="https://img.shields.io/badge/Free%20to%20use-personal-22c55e?style=for-the-badge" />
 </p>
 
 <p>
@@ -186,9 +186,11 @@ If Odd Brawlhalla saved you hours of JPEXS clicking, a coffee goes a long way:
 
 ## 📄 License
 
-[MIT](LICENSE) — do whatever you want, just don't blame me if something breaks.
+**Odd Brawlhalla is free to use** for personal, non-commercial purposes. You can download it, install it, and share the unmodified installer with friends — no charge, no signup, no account.
 
-Odd Brawlhalla bundles several open-source projects from the Brawlhalla modding community (all MIT-licensed). Their copyright notices and the projects they come from are listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+The app itself is **closed source** (the source code stays with me). You may not sell it, repackage it, or reverse-engineer it. See [LICENSE](LICENSE) for the full terms.
+
+Odd Brawlhalla bundles several open-source projects from the Brawlhalla modding community (all MIT-licensed) — their copyright notices and the projects they come from are listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). Each of those components remains under its own MIT license.
 
 <div align="center">
   <sub>Made with 🔥 by <a href="https://github.com/odd999">Odd</a>.</sub>

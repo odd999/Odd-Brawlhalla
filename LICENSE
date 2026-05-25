@@ -1,21 +1,98 @@
-MIT License
+Odd Brawlhalla — End User License Agreement
 
-Copyright (c) 2026 Odd
+Copyright (c) 2026 Odd. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This software ("Odd Brawlhalla") is distributed as a free, closed-source
+desktop application for Windows. The source code is proprietary and is
+not distributed under this license.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. GRANT OF LICENSE
+
+Subject to the terms below, you are granted a personal, non-exclusive,
+non-transferable, royalty-free license to:
+
+  (a) download, install, and use Odd Brawlhalla on any number of personal
+      devices you own or control, for personal, non-commercial purposes;
+      and
+
+  (b) share the unmodified official installer ("Setup.exe") with others
+      free of charge.
+
+
+2. RESTRICTIONS
+
+You may NOT:
+
+  (a) sell, rent, lease, sublicense, or otherwise charge any fee for
+      access to, or distribution of, Odd Brawlhalla or any part of it;
+
+  (b) modify, adapt, translate, or create derivative works of Odd
+      Brawlhalla, or distribute any modified or repackaged version of
+      the installer;
+
+  (c) reverse-engineer, decompile, disassemble, or attempt to derive
+      the source code of Odd Brawlhalla, except to the extent such
+      activity is expressly permitted by applicable law notwithstanding
+      this limitation;
+
+  (d) remove, obscure, or alter any copyright, trademark, or other
+      proprietary notices that appear in or with the software; or
+
+  (e) use Odd Brawlhalla in any way that violates Blue Mammoth Games'
+      or Ubisoft's terms of service for Brawlhalla, including (without
+      limitation) modding default (free) skins, or using the tool to
+      gain a competitive advantage in online play.
+
+
+3. THIRD-PARTY COMPONENTS
+
+Odd Brawlhalla bundles open-source software listed in
+THIRD-PARTY-NOTICES.md. Each of those components is licensed to you
+directly by its respective authors under the MIT License, the terms of
+which prevail over this license for that component only. Nothing in
+this license grants you any rights in any third-party component beyond
+those granted by its own license.
+
+
+4. TRADEMARK AND AFFILIATION
+
+Brawlhalla is a trademark of Blue Mammoth Games / Ubisoft. Odd
+Brawlhalla is an independent, fan-made tool and is not affiliated
+with, endorsed by, sponsored by, or connected to Blue Mammoth Games
+or Ubisoft in any way.
+
+
+5. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+THE AUTHOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE,
+UNINTERRUPTED, OR FREE OF HARMFUL COMPONENTS, OR THAT ITS USE WILL
+NOT AFFECT YOUR BRAWLHALLA INSTALLATION, GAME ACCOUNT, OR DEVICE.
+
+
+6. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES (INCLUDING
+BUT NOT LIMITED TO LOSS OF USE, DATA, GAME PROGRESS, GAME ACCOUNTS,
+OR PROFITS) ARISING IN ANY WAY OUT OF YOUR USE OF, OR INABILITY TO
+USE, THE SOFTWARE — EVEN IF THE AUTHOR HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+
+7. TERMINATION
+
+This license terminates automatically if you breach any of its
+terms. Upon termination, you must stop using and uninstall Odd
+Brawlhalla.
+
+
+8. GENERAL
+
+This license constitutes the entire agreement between you and the
+author regarding Odd Brawlhalla. If any provision is found
+unenforceable, the remaining provisions shall continue in full
+force and effect.
